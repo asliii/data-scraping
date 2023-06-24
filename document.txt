@@ -1,0 +1,7 @@
+﻿Gerekli açıklamalar komut satırı olarak projeye eklenmiştir. Dosya okuma sırası 
+	1) main.py
+	2) scraping.py
+
+Ubuntu işletim sisteminde cron sistemi kullanılarak hergün bu kodun çalışması sağlanabilir. Terminale “crontab -e” yazılıp cron dosyası açılır. Dosyaya “0 0 * * * /usr/bin/python ~/Desktop/data-scraping/main.py >> ~/Desktop/data-scraping/scrap_log.log 2>&1” komutu eklenip kaydedilir. Böylece kod hergün gece yarısı çalışır.
+
+
