@@ -15,10 +15,10 @@ from enum import Enum
 
 
 class web_sites(Enum):
-    kitapyurdu = {'collection': 'kitapyurdu', 'url': 'https://www.kitapyurdu.com/index.php?route=product/search&filter_name=python',
+    kitapyurdu = {'collection': 'kitapyurdu', 'url': 'https://www.kitapyurdu.com/index.php?route=product/search&filter_name=python&fuzzy=0&filter_in_shelf=1&filter_in_stock=0',
                   'main_class': 'product-cr', 'title': 'name', 'publisher': 'publisher', 'author': 'author',
                   'price': 'price'}
-    kitapsepeti = {'collection': 'kitapsepeti', 'url': 'https://www.kitapsepeti.com/arama?q=python',
+    kitapsepeti = {'collection': 'kitapsepeti', 'url': 'https://www.kitapsepeti.com/arama?q=python&stock=1',
                    'main_class': 'productDetails', 'price': 'discountedPrice'}
 
 
