@@ -1,4 +1,4 @@
-mongosh komutu ile mongo shelle geçilip veritabanı kurulur.
+mongosh komutu ile mongo shelle geçilip use komutu ile veritabanı kurulur. createCollection komutu ile collection oluşturulur. main.py çalıştırılarak proje başlatılır.
 Scraping sınıfı main.py'de website adı ile örneklendirilip get_data metodu çağırılır.
 get_data metodunda öncelikle mongo veritabanına bağlanılır.
 Daha sonra get_python_books metodu çağırılıp selenium ile html parse edilerek içinden kitap özellikleri html tag ve class isimlerine göre çekilir.
